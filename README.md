@@ -24,7 +24,7 @@ Hệ thống cần kiểm thử: **Quản lý mượn sách Thư viện ABC** �
 |---|------|-----------|---------|
 | 1 | | Phạm Duy Minh| Nhóm trưởng |
 | 2 | 2410783| Lương Xuân Phúc| Thành viên |
-| 3 | | | Thành viên |
+| 3 |2410014 |Vũ Thành An | Thành viên |
 | 4 | | | Thành viên |
 | 5 | | | Thành viên |
 
