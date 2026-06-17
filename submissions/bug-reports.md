@@ -6,8 +6,8 @@
 
 | Thông tin | |
 |---|---|
-| **Nhóm** | `<!-- Tên nhóm -->` |
-| **Ngày báo cáo** | `<!-- DD/MM/YYYY -->` |
+| **Nhóm** | Group 28 |
+| **Ngày báo cáo** | 13-06-2026` |
 
 ---
 
@@ -16,43 +16,41 @@
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-01 |
-| **TC liên quan** | `<!-- TC-xx -->` |
-| **REQ liên quan** | `<!-- REQ-xx -->` |
-| **Mức độ** | `<!-- High / Medium / Low -->` |
-| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
-| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
-| **Trạng thái** | `<!-- Open / Closed -->` |
+| **TC liên quan** | TC04 |
+| **REQ liên quan** | REQ-01 |
+| **Mức độ** | High |
+| **Người phát hiện** | Trần Nam Long |
+| **Ngày phát hiện** | 02-06-2026 |
+| **Trạng thái** | Closed |
 
 **Tiêu đề:**
-`<!-- Mô tả hành vi lỗi cụ thể -->`
+Tài khoản bị tạm ngưng có thể đăng nhập được
 
 **Môi trường:**
-- Trình duyệt: Chrome `<!-- version -->`
-- Hệ điều hành: `<!-- OS -->`
+- Trình duyệt: Chrome 149
+- Hệ điều hành: Microsoft
 - Ngôn ngữ giao diện: Tiếng Việt
 
 **Điều kiện tiên quyết:**
-`<!-- VD: Trang đăng nhập đã mở, dữ liệu đã reset -->`
+Tài khoản phải bị tạm ngưng trước khi đăng nhập
 
 **Bước tái hiện:**
-1. `<!-- Bước 1 -->`
-2. `<!-- Bước 2 -->`
-3. `<!-- Bước 3 -->`
+1. Điền email, mật khẩu và đăng nhập
 
 **Kết quả mong đợi:**
-`<!-- Kết quả đúng theo SRS -->`
+Tài khoản bị từ chối đăng nhập
 
 **Kết quả thực tế:**
-`<!-- Kết quả hệ thống thật sự trả về -->`
+Tài khoản có thể đăng nhập được bình thường
 
 **Tác động:**
-`<!-- VD: Vi phạm quy tắc nghiệp vụ cốt lõi, cho phép mượn vượt giới hạn -->`
+Người dùng có thể lợi dụng lỗ hổng để mượn sách và không trả
 
 **Minh chứng:**
-`<!-- Đính kèm ảnh chụp màn hình nếu có -->`
+bug01.png
 
 **Đề xuất xử lý:**
-`<!-- Gợi ý cách sửa lỗi nếu có -->` 
+Sửa/nâng cấp khả năng phân biệt và nhận dạng trạng thái của tài khoản
 
 ---
 
@@ -61,6 +59,46 @@
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-02 |
+| **TC liên quan** | TC06 |
+| **REQ liên quan** | REQ-02 |
+| **Mức độ** | Medium |
+| **Người phát hiện** | Lương Xuân Phúc |
+| **Ngày phát hiện** | 02-06-2026 |
+| **Trạng thái** | Closed |
+
+**Tiêu đề:**
+Admin không thể tạo tài khoản cho thành viên mới
+
+**Điều kiện tiên quyết:**
+Đăng nhập vào tài khoản admin
+
+**Bước tái hiện:**
+1. Vào phần "Thêm thành viên"
+2. Điền họ tên, email, SĐT cho thành viên mới
+3. `<!-- -->`
+
+**Kết quả mong đợi:**
+`<!-- -->`
+
+**Kết quả thực tế:**
+`<!-- -->`
+
+**Tác động:**
+`<!-- -->`
+
+**Minh chứng:**
+`<!-- -->`
+
+**Đề xuất xử lý:**
+`<!-- -->`
+
+---
+
+## BUG-03
+
+| Thuộc tính | Chi tiết |
+|-----------|---------|
+| **Mã lỗi** | BUG-03 |
 | **TC liên quan** | `<!-- TC-xx -->` |
 | **REQ liên quan** | `<!-- REQ-xx -->` |
 | **Mức độ** | `<!-- High / Medium / Low -->` |
@@ -93,4 +131,149 @@
 
 ---
 
-<!-- Copy template BUG trên để thêm BUG-03, BUG-04, ... cho mỗi TC Fail -->
+## BUG-04
+
+| Thuộc tính | Chi tiết |
+|-----------|---------|
+| **Mã lỗi** | BUG-04 |
+| **TC liên quan** | `<!-- TC-xx -->` |
+| **REQ liên quan** | `<!-- REQ-xx -->` |
+| **Mức độ** | `<!-- High / Medium / Low -->` |
+| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
+| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
+| **Trạng thái** | `<!-- Open / Closed -->` |
+
+**Tiêu đề:**
+`<!-- Mô tả hành vi lỗi -->`
+
+**Bước tái hiện:**
+1. `<!-- -->`
+2. `<!-- -->`
+3. `<!-- -->`
+
+**Kết quả mong đợi:**
+`<!-- -->`
+
+**Kết quả thực tế:**
+`<!-- -->`
+
+**Tác động:**
+`<!-- -->`
+
+**Minh chứng:**
+`<!-- -->`
+
+**Đề xuất xử lý:**
+`<!-- -->`
+
+---
+
+## BUG-05
+
+| Thuộc tính | Chi tiết |
+|-----------|---------|
+| **Mã lỗi** | BUG-05 |
+| **TC liên quan** | `<!-- TC-xx -->` |
+| **REQ liên quan** | `<!-- REQ-xx -->` |
+| **Mức độ** | `<!-- High / Medium / Low -->` |
+| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
+| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
+| **Trạng thái** | `<!-- Open / Closed -->` |
+
+**Tiêu đề:**
+`<!-- Mô tả hành vi lỗi -->`
+
+**Bước tái hiện:**
+1. `<!-- -->`
+2. `<!-- -->`
+3. `<!-- -->`
+
+**Kết quả mong đợi:**
+`<!-- -->`
+
+**Kết quả thực tế:**
+`<!-- -->`
+
+**Tác động:**
+`<!-- -->`
+
+**Minh chứng:**
+`<!-- -->`
+
+**Đề xuất xử lý:**
+`<!-- -->`
+
+---
+
+## BUG-06
+
+| Thuộc tính | Chi tiết |
+|-----------|---------|
+| **Mã lỗi** | BUG-06 |
+| **TC liên quan** | `<!-- TC-xx -->` |
+| **REQ liên quan** | `<!-- REQ-xx -->` |
+| **Mức độ** | `<!-- High / Medium / Low -->` |
+| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
+| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
+| **Trạng thái** | `<!-- Open / Closed -->` |
+
+**Tiêu đề:**
+`<!-- Mô tả hành vi lỗi -->`
+
+**Bước tái hiện:**
+1. `<!-- -->`
+2. `<!-- -->`
+3. `<!-- -->`
+
+**Kết quả mong đợi:**
+`<!-- -->`
+
+**Kết quả thực tế:**
+`<!-- -->`
+
+**Tác động:**
+`<!-- -->`
+
+**Minh chứng:**
+`<!-- -->`
+
+**Đề xuất xử lý:**
+`<!-- -->`
+
+---
+
+## BUG-07
+
+| Thuộc tính | Chi tiết |
+|-----------|---------|
+| **Mã lỗi** | BUG-07 |
+| **TC liên quan** | `<!-- TC-xx -->` |
+| **REQ liên quan** | `<!-- REQ-xx -->` |
+| **Mức độ** | `<!-- High / Medium / Low -->` |
+| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
+| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
+| **Trạng thái** | `<!-- Open / Closed -->` |
+
+**Tiêu đề:**
+`<!-- Mô tả hành vi lỗi -->`
+
+**Bước tái hiện:**
+1. `<!-- -->`
+2. `<!-- -->`
+3. `<!-- -->`
+
+**Kết quả mong đợi:**
+`<!-- -->`
+
+**Kết quả thực tế:**
+`<!-- -->`
+
+**Tác động:**
+`<!-- -->`
+
+**Minh chứng:**
+`<!-- -->`
+
+**Đề xuất xử lý:**
+`<!-- -->`
+
