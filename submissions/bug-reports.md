@@ -16,10 +16,10 @@
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-01 |
-| **TC liên quan** | TC04 |
-| **REQ liên quan** | REQ-01 |
+| **TC liên quan** | TC06 |
+| **REQ liên quan** | REQ-02 |
 | **Mức độ** | High |
-| **Người phát hiện** | Lương Xuân Phúc |
+| **Người phát hiện** | Trần Nam Long |
 | **Ngày phát hiện** | 02-06-2026 |
 | **Trạng thái** | Closed |
 
@@ -30,44 +30,6 @@ Tài khoản bị tạm ngưng có thể đăng nhập được
 - Trình duyệt: Chrome 149
 - Hệ điều hành: Microsoft
 - Ngôn ngữ giao diện: Tiếng Việt
-
-**Điều kiện tiên quyết:**
-Tài khoản phải bị tạm ngưng trước khi đăng nhập
-
-**Bước tái hiện:**
-1. Điền email, mật khẩu và đăng nhập
-
-**Kết quả mong đợi:**
-Tài khoản bị từ chối đăng nhập
-
-**Kết quả thực tế:**
-Tài khoản có thể đăng nhập được bình thường
-
-**Tác động:**
-Người dùng có thể lợi dụng lỗ hổng để mượn sách và không trả
-
-**Minh chứng:**
-bug01.png
-
-**Đề xuất xử lý:**
-Sửa/nâng cấp khả năng phân biệt và nhận dạng trạng thái của tài khoản
-
----
-
-## BUG-02
-
-| Thuộc tính | Chi tiết |
-|-----------|---------|
-| **Mã lỗi** | BUG-02 |
-| **TC liên quan** | TC06 |
-| **REQ liên quan** | REQ-02 |
-| **Mức độ** | Medium |
-| **Người phát hiện** | Trần Nam Long |
-| **Ngày phát hiện** | 02-06-2026 |
-| **Trạng thái** | Closed |
-
-**Tiêu đề:**
-Admin không thể tạo tài khoản cho thành viên mới
 
 **Điều kiện tiên quyết:**
 Đăng nhập vào tài khoản admin
@@ -90,6 +52,44 @@ bug02.png
 
 **Đề xuất xử lý:**
 Sửa lại tính năng thêm email cho thành viên mới của tài khoản admin
+
+---
+
+## BUG-02
+
+| Thuộc tính | Chi tiết |
+|-----------|---------|
+| **Mã lỗi** | BUG-02 |
+| **TC liên quan** | TC05, TC14, TC15 |
+| **REQ liên quan** | REQ-04, REQ-05 |
+| **Mức độ** | High |
+| **Người phát hiện** | Trần Nam Long |
+| **Ngày phát hiện** | 02-06-2026 |
+| **Trạng thái** | Closed |
+
+**Tiêu đề:**
+Thành viên hết hạn vẫn có thể mượn sách
+
+**Điều kiện tiên quyết:**
+
+
+**Bước tái hiện:**
+
+
+**Kết quả mong đợi:**
+
+
+**Kết quả thực tế:**
+
+
+**Tác động:**
+Ảnh hưởng trực tiếp đến logic việc mượn/trả sách đối với các tài khoản.
+
+**Minh chứng:**
+bug02.png
+
+**Đề xuất xử lý:**
+
 
 ---
 
@@ -140,7 +140,7 @@ Thay đổi thông báo khi có tín hiệu trùng thông tin đăng nhập
 | **TC liên quan** | TC16 |
 | **REQ liên quan** | REQ-04 |
 | **Mức độ** | High |
-| **Người phát hiện** | Lương Xuân Phúc |
+| **Người phát hiện** | Trần Nam Long |
 | **Ngày phát hiện** | 03-06-2026 |
 | **Trạng thái** | Closed |
 
@@ -175,35 +175,37 @@ Sửa lại khả năng đếm số lượng sách thành viên đã mượn
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-05 |
-| **TC liên quan** | `<!-- TC-xx -->` |
-| **REQ liên quan** | `<!-- REQ-xx -->` |
-| **Mức độ** | `<!-- High / Medium / Low -->` |
-| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
-| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
-| **Trạng thái** | `<!-- Open / Closed -->` |
+| **TC liên quan** | TC18 |
+| **REQ liên quan** | REQ-05 |
+| **Mức độ** | High |
+| **Người phát hiện** | Lương Xuân Phúc |
+| **Ngày phát hiện** | 04-06-2026 |
+| **Trạng thái** | Open |
 
 **Tiêu đề:**
 Lỗi hiển thị sách quá hạn trong tài khoản thành viên
 
+**Điều kiện tiên quyết:**
+Đăng nhập vào tài khoản của thành viên Phạm Trung Bình
+
 **Bước tái hiện:**
-1. `<!-- -->`
-2. `<!-- -->`
-3. `<!-- -->`
+1. Vào trực tiếp phần Mượn-Trả
+
 
 **Kết quả mong đợi:**
-`<!-- -->`
+Hiển thị sách quá hạn, chưa trả
 
 **Kết quả thực tế:**
-`<!-- -->`
+Không hiển thị
 
 **Tác động:**
-`<!-- -->`
+Thành viên không thể mượn hay trả sách
 
 **Minh chứng:**
-`<!-- -->`
+bug05.png
 
 **Đề xuất xử lý:**
-`<!-- -->`
+Sửa lại phần hiển thị trong UI của web đối với các tài khoản quá hạn
 
 ---
 
@@ -212,15 +214,17 @@ Lỗi hiển thị sách quá hạn trong tài khoản thành viên
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-06 |
-| **TC liên quan** | `<!-- TC-xx -->` |
-| **REQ liên quan** | `<!-- REQ-xx -->` |
-| **Mức độ** | `<!-- High / Medium / Low -->` |
-| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
-| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
-| **Trạng thái** | `<!-- Open / Closed -->` |
+| **TC liên quan** | TC08 |
+| **REQ liên quan** | REQ-02 |
+| **Mức độ** | High |
+| **Người phát hiện** | Trần Nam Long |
+| **Ngày phát hiện** | 08-06-2026 |
+| **Trạng thái** | Closed |
 
 **Tiêu đề:**
-`<!-- Mô tả hành vi lỗi -->`
+Lỗi tìm kiếm sách theo đúng từ khóa
+
+**Điều kiện tiên quyết:**
 
 **Bước tái hiện:**
 1. `<!-- -->`
