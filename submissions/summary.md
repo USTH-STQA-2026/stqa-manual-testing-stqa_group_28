@@ -1,19 +1,37 @@
 #  Summary – STQA Group 28
 
+# 📋 Test Summary — Báo cáo tổng hợp kiểm thử
+
 ## 1. Thông tin nhóm
-- **Nhóm:** STQA Group 28    
+- **Nhóm:** STQA Group 28  
+- **Lớp:** SE001.P11  
 - **Ngày báo cáo:** 17/06/2026  
-- **Hệ thống kiểm thử:** [Library App](https://stqa.rbc.vn) – v1.0  
+- **Hệ thống kiểm thử:** https://stqa.rbc.vn — v1.0  
 
 ---
 
 ## 2. Tổng quan kết quả
-- **Tổng số Test Case:** 28  
-- **Pass:** 21  
-- **Fail:** 7 (tương ứng với BUG-01 → BUG-07)  
-- **Blocked:** 0  
-- **Not Run:** 0  
-- **Tỷ lệ Pass:** ~75%  
+
+| Chỉ số | Giá trị |
+|--------|---------|
+| Tổng số test case | 28 |
+| Pass | 21 |
+| Fail | 7 |
+| Blocked | 0 |
+| Not Run | 0 |
+| Tỷ lệ Pass | ~75% |
+| Số bug phát hiện | 7 |
+
+### Phân bổ theo nhóm chức năng
+| Nhóm chức năng | TC | Pass | Fail | Bug | Đánh giá |
+|----------------|----|------|------|-----|----------|
+| Đăng nhập | 5 | 3 | 2 | BUG-04, BUG-02 | Trung bình |
+| Quản lý user | 4 | 2 | 2 | BUG-01, BUG-06 | Trung bình |
+| Quản lý sách | 4 | 4 | 0 | - | Tốt |
+| Mượn/Trả sách | 5 | 5 | 0 | - | Tốt |
+| Tìm kiếm | 2 | 1 | 1 | BUG-03 | Trung bình |
+| Quản trị | 2 | 1 | 1 | BUG-07 | Trung bình |
+| Bổ sung | 6 | 6 | 0 | - | Tốt |
 
 ### Phân bổ bug theo mức độ
 | Mức độ | Số lượng | Bug IDs |
@@ -25,19 +43,22 @@
 ---
 
 ## 3. Kỹ thuật thiết kế đã sử dụng
-- **Equivalence Partitioning (EP):** cho hầu hết các chức năng (REQ-01 → REQ-07).  
-- **Boundary Value Analysis (BVA):** cho đăng nhập sai mật khẩu, mượn quá giới hạn, mượn sách hết số lượng.  
-- **Decision Table (DT):** cho xóa user đang mượn sách, xóa sách đang mượn.  
+| Kỹ thuật | Áp dụng cho REQ nào | Số TC sử dụng | Giải thích |
+|----------|---------------------|---------------|------------|
+| EP (Equivalence Partitioning) | REQ-01 → REQ-07 | 22 | Chia lớp dữ liệu hợp lệ/không hợp lệ để kiểm thử |
+| BVA (Boundary Value Analysis) | REQ-01, REQ-04 | 4 | Kiểm thử mật khẩu sai, mượn quá giới hạn, hết số lượng |
+| DT (Decision Table) | REQ-02, REQ-03 | 2 | Kiểm thử xóa user/sách đang mượn |
 
 ---
 
 ## 4. Phân tích chất lượng phần mềm
-### Điểm mạnh
+
+### 4.1 Điểm mạnh
 - Chức năng thêm/xóa sách hoạt động đúng.  
 - Đăng nhập với tài khoản hợp lệ vào dashboard thành công.  
 - Tìm kiếm sách không tồn tại trả về thông báo chính xác.  
 
-### Điểm yếu
+### 4.2 Điểm yếu
 - Cho phép thành viên hết hạn mượn sách (BUG-02).  
 - Validation email chưa chặt chẽ (BUG-01).  
 - Hiển thị số sách mượn không chính xác (BUG-05).  
@@ -59,7 +80,7 @@
 ---
 
 ## 6. Kết luận
-Hệ thống cơ bản đáp ứng được các yêu cầu chính, nhưng chưa sẵn sàng phát hành vì tồn tại bug nghiêm trọng (BUG-02). Cần khắc phục bug High và Medium trước khi triển khai chính thức.
+Hệ thống đạt **75% test case Pass**, nhưng chưa sẵn sàng phát hành vì tồn tại bug nghiêm trọng (BUG-02). Cần khắc phục bug High và Medium trước khi triển khai chính thức.
 
 ---
 
@@ -68,7 +89,6 @@ Hệ thống cơ bản đáp ứng được các yêu cầu chính, nhưng chưa
 - Minh chứng hình ảnh giúp báo cáo thuyết phục và dễ kiểm tra.  
 - Việc đối chiếu Bug ↔ TC ↔ REQ giúp quản lý chất lượng chặt chẽ.  
 
----
 
 ## 8. Khai báo sử dụng AI
 - **Công cụ AI:** 
