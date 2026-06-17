@@ -214,7 +214,7 @@ Sửa lại phần hiển thị trong UI của web đối với các tài khoả
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-06 |
-| **TC liên quan** | TC08 |
+| **TC liên quan** | TC17 |
 | **REQ liên quan** | REQ-02 |
 | **Mức độ** | High |
 | **Người phát hiện** | Trần Nam Long |
@@ -222,29 +222,30 @@ Sửa lại phần hiển thị trong UI của web đối với các tài khoả
 | **Trạng thái** | Closed |
 
 **Tiêu đề:**
-Lỗi tìm kiếm sách theo đúng từ khóa
+Lỗi trả hộ sách cho thành viên khác
 
 **Điều kiện tiên quyết:**
+Đăng nhập vào tài khoản của thành viên Nguyễn Học Bá
 
 **Bước tái hiện:**
-1. `<!-- -->`
-2. `<!-- -->`
-3. `<!-- -->`
+1. Vào mục Mượn/Trả
+2. Tìm thông tin MEM006
+3. Trả hộ sách cho thành viên Hoàng Cá Biệt
 
 **Kết quả mong đợi:**
-`<!-- -->`
+hiển thị thông báo bạn không có quyền truy cập
 
 **Kết quả thực tế:**
-`<!-- -->`
+trả thành công
 
 **Tác động:**
-`<!-- -->`
+thành viên có thể lợi dụng kẽ hở để hại thành viên khác thông qua việc trả sách trong thời hạn mượn
 
 **Minh chứng:**
-`<!-- -->`
+bug07.png
 
 **Đề xuất xử lý:**
-`<!-- -->`
+giới hạn lại khả năng truy cập và tương tác của từng thành viên trong mục Mượn/Trả
 
 ---
 
