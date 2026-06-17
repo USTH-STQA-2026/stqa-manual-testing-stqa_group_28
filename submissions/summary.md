@@ -1,8 +1,7 @@
 #  Summary – STQA Group 28
 
 ## 1. Thông tin nhóm
-- **Nhóm:** STQA Group 28  
-- **Lớp:** SE001.P11  
+- **Nhóm:** STQA Group 28    
 - **Ngày báo cáo:** 17/06/2026  
 - **Hệ thống kiểm thử:** [Library App](https://stqa.rbc.vn) – v1.0  
 
