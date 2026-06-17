@@ -7,7 +7,7 @@
 | Thông tin | |
 |---|---|
 | **Nhóm** | Group 28 |
-| **Ngày báo cáo** | 13-06-2026` |
+| **Ngày báo cáo** | 13-06-2026 |
 
 ---
 
@@ -19,7 +19,7 @@
 | **TC liên quan** | TC04 |
 | **REQ liên quan** | REQ-01 |
 | **Mức độ** | High |
-| **Người phát hiện** | Trần Nam Long |
+| **Người phát hiện** | Lương Xuân Phúc |
 | **Ngày phát hiện** | 02-06-2026 |
 | **Trạng thái** | Closed |
 
@@ -62,7 +62,7 @@ Sửa/nâng cấp khả năng phân biệt và nhận dạng trạng thái của
 | **TC liên quan** | TC06 |
 | **REQ liên quan** | REQ-02 |
 | **Mức độ** | Medium |
-| **Người phát hiện** | Lương Xuân Phúc |
+| **Người phát hiện** | Trần Nam Long |
 | **Ngày phát hiện** | 02-06-2026 |
 | **Trạng thái** | Closed |
 
@@ -75,22 +75,21 @@ Admin không thể tạo tài khoản cho thành viên mới
 **Bước tái hiện:**
 1. Vào phần "Thêm thành viên"
 2. Điền họ tên, email, SĐT cho thành viên mới
-3. `<!-- -->`
 
 **Kết quả mong đợi:**
-`<!-- -->`
+Tài khoản được thêm vào trong database, hiện lên thông báo 'Tài khoản đã được thiết lập thành công'
 
 **Kết quả thực tế:**
-`<!-- -->`
+Email không hợp lệ
 
 **Tác động:**
-`<!-- -->`
+Admin không thể thêm tài khoản của các học sinh mới
 
 **Minh chứng:**
-`<!-- -->`
+bug02.png
 
 **Đề xuất xử lý:**
-`<!-- -->`
+Sửa lại tính năng thêm email cho thành viên mới của tài khoản admin
 
 ---
 
@@ -99,35 +98,37 @@ Admin không thể tạo tài khoản cho thành viên mới
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-03 |
-| **TC liên quan** | `<!-- TC-xx -->` |
-| **REQ liên quan** | `<!-- REQ-xx -->` |
-| **Mức độ** | `<!-- High / Medium / Low -->` |
-| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
-| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
-| **Trạng thái** | `<!-- Open / Closed -->` |
+| **TC liên quan** | TC07 |
+| **REQ liên quan** | REQ-02 |
+| **Mức độ** | Low |
+| **Người phát hiện** | Lương Xuân Phúc |
+| **Ngày phát hiện** | 02-06-2026 |
+| **Trạng thái** | Closed |
 
 **Tiêu đề:**
-`<!-- Mô tả hành vi lỗi -->`
+Thêm tài khoản có thông tin tương tự admin
+
+**Điều kiện tiên quyết:**
+Email đã tồn tại từ trước đó
 
 **Bước tái hiện:**
-1. `<!-- -->`
-2. `<!-- -->`
-3. `<!-- -->`
+1. Vào phần "Thêm thành viên"
+2. Ghi lại thông tin của thành viên Lê Cần Cù
 
 **Kết quả mong đợi:**
-`<!-- -->`
+Email hoặc thông tin bị trùng lặp
 
 **Kết quả thực tế:**
-`<!-- -->`
+Hiện sai thông báo
 
 **Tác động:**
-`<!-- -->`
+Có thể gây hiểu lầm
 
 **Minh chứng:**
-`<!-- -->`
+bug03.png
 
 **Đề xuất xử lý:**
-`<!-- -->`
+Thay đổi thông báo khi có tín hiệu trùng thông tin đăng nhập
 
 ---
 
@@ -136,12 +137,12 @@ Admin không thể tạo tài khoản cho thành viên mới
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-04 |
-| **TC liên quan** | `<!-- TC-xx -->` |
-| **REQ liên quan** | `<!-- REQ-xx -->` |
-| **Mức độ** | `<!-- High / Medium / Low -->` |
-| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
-| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
-| **Trạng thái** | `<!-- Open / Closed -->` |
+| **TC liên quan** | TC16 |
+| **REQ liên quan** | REQ-04 |
+| **Mức độ** | High |
+| **Người phát hiện** | Lương Xuân Phúc |
+| **Ngày phát hiện** | 03-06-2026 |
+| **Trạng thái** |  |
 
 **Tiêu đề:**
 `<!-- Mô tả hành vi lỗi -->`
