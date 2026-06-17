@@ -1,4 +1,4 @@
-# 📋 Summary – STQA Group 28
+#  Summary – STQA Group 28
 
 ## 1. Thông tin nhóm
 - **Nhóm:** STQA Group 28  
