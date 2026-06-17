@@ -254,33 +254,36 @@ giới hạn lại khả năng truy cập và tương tác của từng thành v
 | Thuộc tính | Chi tiết |
 |-----------|---------|
 | **Mã lỗi** | BUG-07 |
-| **TC liên quan** | `<!-- TC-xx -->` |
-| **REQ liên quan** | `<!-- REQ-xx -->` |
-| **Mức độ** | `<!-- High / Medium / Low -->` |
-| **Người phát hiện** | `<!-- Họ tên thành viên -->` |
-| **Ngày phát hiện** | `<!-- DD/MM/YYYY -->` |
-| **Trạng thái** | `<!-- Open / Closed -->` |
+| **TC liên quan** | TC22 |
+| **REQ liên quan** | REQ-08 |
+| **Mức độ** | Medium |
+| **Người phát hiện** | Trần Nam Long |
+| **Ngày phát hiện** | 09/06/2026 |
+| **Trạng thái** | Closed |
 
 **Tiêu đề:**
-`<!-- Mô tả hành vi lỗi -->`
+Giao diện không đồng bộ ngôn ngữ
+
+**Điều kiện tiên quyết:**
+Đăng nhập tài khoản Nguyễn Học Bá
 
 **Bước tái hiện:**
-1. `<!-- -->`
+1. Vào trang của Admin
 2. `<!-- -->`
 3. `<!-- -->`
 
 **Kết quả mong đợi:**
-`<!-- -->`
+Bị từ chối, hiển thị không có quyền truy cập
 
 **Kết quả thực tế:**
-`<!-- -->`
+Một số trạng thái hiển thị sai ngôn ngữ và đăng nhập được vào trang admin
 
 **Tác động:**
-`<!-- -->`
+Một số thành viên có thể lạm dụng lỗi
 
 **Minh chứng:**
-`<!-- -->`
+bug09.png
 
 **Đề xuất xử lý:**
-`<!-- -->`
+Sủa lại khả năng truy cập của thành viên với trang Admin và hiển thị ngôn ngữ
 
