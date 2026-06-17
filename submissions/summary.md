@@ -8,9 +8,9 @@
 
 | Mục | Thông tin |
 |-----|----------|
-| **Nhóm** | `<!-- Tên nhóm -->` |
-| **Lớp** | `<!-- VD: SE001.P11 -->` |
-| **Ngày báo cáo** | `<!-- DD/MM/YYYY -->` |
+| **Nhóm** | Group 28 |
+| **Lớp** | ICT002.010 |
+| **Ngày báo cáo** | 13-10-2026 |
 | **Hệ thống kiểm thử** | https://stqa.rbc.vn — v1.0 |
 
 ---
@@ -19,13 +19,13 @@
 
 | Chỉ số | Giá trị |
 |--------|---------|
-| Tổng số test case | `<!-- -->` |
-| Pass | `<!-- -->` |
-| Fail | `<!-- -->` |
-| Blocked | `<!-- -->` |
-| Not Run | `<!-- -->` |
-| **Tỷ lệ Pass** | `<!-- xx% -->` |
-| **Số bug phát hiện** | `<!-- -->` |
+| Tổng số test case | 28 |
+| Pass | 21 |
+| Fail | 7 |
+| Blocked | 0 |
+| Not Run | 0 |
+| **Tỷ lệ Pass** | 75% |
+| **Số bug phát hiện** | 7 |
 
 ### Phân bổ theo nhóm chức năng
 
