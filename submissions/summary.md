@@ -1,6 +1,6 @@
-#  Summary – STQA Group 28
 
-# 📋 Test Summary — Báo cáo tổng hợp kiểm thử
+
+#Test Summary — Báo cáo tổng hợp kiểm thử
 
 ## 1. Thông tin nhóm
 - **Nhóm:** STQA Group 28  
