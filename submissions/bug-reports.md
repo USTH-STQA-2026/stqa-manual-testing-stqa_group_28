@@ -142,30 +142,31 @@ Thay đổi thông báo khi có tín hiệu trùng thông tin đăng nhập
 | **Mức độ** | High |
 | **Người phát hiện** | Lương Xuân Phúc |
 | **Ngày phát hiện** | 03-06-2026 |
-| **Trạng thái** |  |
+| **Trạng thái** | Closed |
 
 **Tiêu đề:**
-`<!-- Mô tả hành vi lỗi -->`
+Thành viên có thể mượn số lượng sách vượt quá giới hạn
+
+**Điều kiện tiên quyết:**
+Đăng nhập vào email của tài khoản Nguyễn Học Bá
 
 **Bước tái hiện:**
-1. `<!-- -->`
-2. `<!-- -->`
-3. `<!-- -->`
+1. Mượn dần 5 quyển sách theo thứ tự: BOOK001, BOOK002, BOOK003, BOOK004, BOOK005
 
 **Kết quả mong đợi:**
-`<!-- -->`
+Thông báo "Đã đạt giới hạn số lượng sách có thể mượn, không thể mượn quyển BOOK004."
 
 **Kết quả thực tế:**
-`<!-- -->`
+Mượn thành công BOOK004, lỗi thông báo sai khi mượn BOOK005.
 
 **Tác động:**
-`<!-- -->`
+Thành viên có thể lợi dụng lỗ hổng để mượn quá số lượng sách theo giới hạn
 
 **Minh chứng:**
-`<!-- -->`
+bug04.png
 
 **Đề xuất xử lý:**
-`<!-- -->`
+Sửa lại khả năng đếm số lượng sách thành viên đã mượn
 
 ---
 
@@ -182,7 +183,7 @@ Thay đổi thông báo khi có tín hiệu trùng thông tin đăng nhập
 | **Trạng thái** | `<!-- Open / Closed -->` |
 
 **Tiêu đề:**
-`<!-- Mô tả hành vi lỗi -->`
+Lỗi hiển thị sách quá hạn trong tài khoản thành viên
 
 **Bước tái hiện:**
 1. `<!-- -->`
