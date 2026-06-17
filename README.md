@@ -22,11 +22,11 @@ Hệ thống cần kiểm thử: **Quản lý mượn sách Thư viện ABC** �
 
 | # | MSSV | Họ và tên | Vai trò |
 |---|------|-----------|---------|
-| 1 | | Phạm Duy Minh| Nhóm trưởng |
+| 1 | 2410643 | Phạm Duy Minh| Nhóm trưởng |
 | 2 | 2410783| Lương Xuân Phúc| Thành viên |
 | 3 |2410014 |Vũ Thành An | Thành viên |
 | 4 | 2410553|Trần Nam Long| Thành viên |
-| 5 | | | Thành viên |
+| 5 | 22BA13240 | Đào Minh Nguyệt | Thành viên |
 
 ---
 
